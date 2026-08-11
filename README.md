@@ -1,30 +1,32 @@
-# Simple Notes App for TWS Community
-This is a simple notes app built with React and Django.
+# 📝 Simple Notes App - Deployment Practice
 
-## Requirements
-1. Python 3.9
-2. Node.js
-3. React
+This project is a **practice/learning implementation** based on the 
+"Simple Notes App" tutorial by **Shubham Londhe (TrainWithShubham)**.
 
-## Installation
-1. Clone the repository
-```
-git clone https://github.com/LondheShubham153/django-notes-app.git
-```
+🔗 Original Project: https://github.com/LondheShubham153/django-notes-app
+🎥 Tutorial followed: [TrainWithShubham YouTube Channel]
 
-2. Build the app
-```
-docker build -t notes-app .
-```
+## 🎯 Purpose
+This repo was created to practice:
+- Django + MySQL backend setup
+- Dockerizing a Django application
+- Nginx as a reverse proxy
+- Deployment on AWS EC2
 
-3. Run the app
-```
-docker run -d -p 8000:8000 notes-app:latest
-```
+## 🛠️ Tech Stack
+- **Backend:** Django, Django REST Framework
+- **Database:** MySQL
+- **Web Server:** Nginx
+- **Containerization:** Docker, Docker Compose
 
-## Nginx
+## 🚀 What I did
+- Cloned and set up the project locally
+- Containerized the app using Docker & Docker Compose
+- Configured Nginx as reverse proxy
+- Deployed on AWS EC2 (instance terminated after practice to avoid costs)
 
-Install Nginx reverse proxy to make this application available
-
-`sudo apt-get update`
-`sudo apt install nginx`
+## 📌 Note
+- This is **not an original project** — full credit goes to Shubham Londhe 
+  for the original code and tutorial. This repo exists purely for 
+  hands-on Docker/Nginx/deployment practice.
+- Jenkinsfile included from original repo but not used in this practice deployment.
